@@ -73,3 +73,48 @@ h4{
     
 }
 
+/* main */
+
+.sezione-flex{
+    padding: 40px 0;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+
+    /* debug */
+    background-color: bisque;
+    min-height: 400px;
+    border: 2px solid black;
+}
+
+.sezione-flex>img, #last-section>img{
+    /* debug */
+    height: 400px;
+    width: 400px;
+    
+}
+
+.sezione-flex div{
+    padding: 20px 40px;
+    width: 30%;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.section-reverse{
+    flex-direction: row-reverse;
+}
+
+#last-section{
+    padding: 20px 0;
+    background-color: bisque;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
