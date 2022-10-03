@@ -1,3 +1,4 @@
+/* general */
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +9,10 @@ body{
     font-size: 20px;
 }
 
-    /* header */
+
+
+
+/* header */
 
 header{
     /* debug */
@@ -18,7 +22,10 @@ header{
 }
 
 
+
+
 /* Nav bar */
+
 header a{
     color: white;
     text-decoration: none;
@@ -52,6 +59,8 @@ h4{
     padding: 15%;
 }
 
+
+
  /* Titolo con testo e pulsanti per download e di reindirizzamento   */
 
  #title{
@@ -72,6 +81,8 @@ h4{
     padding:10px 30px;
     
 }
+
+
 
 /* main */
 
@@ -118,3 +129,29 @@ h4{
     
 }
 
+
+/* footer */
+
+footer{
+    /* debug */
+    min-height: 400px;
+    background-color: dimgray;
+}
+
+#flex-footer{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+
+    padding: 80px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
