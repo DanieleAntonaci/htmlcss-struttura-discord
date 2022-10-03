@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-size: 20px;
+}
+
+    /* header */
+
+header{
+    /* debug */
+    background-color: blue;
+    min-height: 400px;
+    color: white;
+}
+
+
+/* Nav bar */
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+h4{
+    display: inline;
+}
+
+#header-flexcontainer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+#menu-navigazione{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#menu-navigazione > div{
+    padding: 0 20px;
+
+}
+
+ /* Titolo con testo e pulsanti per download e di reindirizzamento   */
+
+ #title{
+    padding: 80px 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ h1{
+    padding-bottom: 20px;
+ }
